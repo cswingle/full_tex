@@ -1,2 +1,2 @@
 #!/bin/sh
-exec docker run --rm -i --user="$(id -u):$(id -g)" --net=none -v "$PWD":/data cswingle/ful_tex "$@"
+exec docker run --rm -i --user="$(id -u):$(id -g)" --net=none -v "$PWD":/data cswingle/full_tex "$@"
