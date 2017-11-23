@@ -5,7 +5,8 @@
 cd /tmp || exit
 
 # install unzip just in case the user doesn't already have it.
-apt-get install unzip -y
+apt update
+apt install unzip -y
 wget "https://github.com/adobe-fonts/source-sans-pro/archive/2.020R-ro/1.075R-it.zip" -O ssp.zip
 wget "https://github.com/adobe-fonts/source-code-pro/archive/2.030R-ro/1.050R-it.zip" -O scp.zip
 wget "https://github.com/adobe-fonts/source-serif-pro/archive/2.000R.zip" -O ssfp.zip
